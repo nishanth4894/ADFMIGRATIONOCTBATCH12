@@ -1,0 +1,17 @@
+{
+	"name": "DS_SRC_SQLSERVER_ADLS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SRC_SQLSERVER_ADLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "SalesData"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

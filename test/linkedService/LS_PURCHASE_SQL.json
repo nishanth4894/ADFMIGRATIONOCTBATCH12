@@ -1,0 +1,21 @@
+{
+	"name": "LS_PURCHASE_SQL",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-GMD26J4\\SQLEXPRESS",
+			"database": "AdventureWorks2022",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "VBSQL",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzNWU2ZmFhMy03ZTQ1LTRlZDUtYWVjNi0xY2RlZjRmNGNkYWQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "adfdevchevron",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

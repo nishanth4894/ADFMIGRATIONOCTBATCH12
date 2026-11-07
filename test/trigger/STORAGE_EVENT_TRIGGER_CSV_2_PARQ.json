@@ -1,0 +1,25 @@
+{
+	"name": "STORAGE_EVENT_TRIGGER_CSV_2_PARQ",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_EVENT_TRIGGER",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/eventcontainer/blobs/",
+			"blobPathEndsWith": "*.csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/b8efeafc-99c8-460e-940b-a496bab071c7/resourceGroups/rgdevchevronproject/providers/Microsoft.Storage/storageAccounts/adftriggerinput",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

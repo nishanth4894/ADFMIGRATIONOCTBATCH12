@@ -1,0 +1,72 @@
+{
+	"name": "DS_MUL_CSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_MUL_CSV",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "input04112026"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Region",
+				"type": "String"
+			},
+			{
+				"name": "Country",
+				"type": "String"
+			},
+			{
+				"name": "ItemType",
+				"type": "String"
+			},
+			{
+				"name": "SalesChannel",
+				"type": "String"
+			},
+			{
+				"name": "OrderPriority",
+				"type": "String"
+			},
+			{
+				"name": "OrderID",
+				"type": "String"
+			},
+			{
+				"name": "UnitsSold",
+				"type": "String"
+			},
+			{
+				"name": "UnitPrice",
+				"type": "String"
+			},
+			{
+				"name": "UnitCost",
+				"type": "String"
+			},
+			{
+				"name": "TotalRevenue",
+				"type": "String"
+			},
+			{
+				"name": "TotalCost",
+				"type": "String"
+			},
+			{
+				"name": "TotalProfit",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,27 @@
+{
+	"name": "DS_DELETE_100KB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_DELETE_100KB",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"fileName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().fileName",
+					"type": "Expression"
+				},
+				"fileSystem": "input04112026"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

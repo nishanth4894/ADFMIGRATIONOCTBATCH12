@@ -1,0 +1,23 @@
+{
+	"name": "DS_MULTIPLEFILES_SINK_CSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_MULTIPLEFILES_SINK_CSV",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "multiplecsv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

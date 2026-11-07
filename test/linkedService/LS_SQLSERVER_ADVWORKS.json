@@ -1,0 +1,21 @@
+{
+	"name": "LS_SQLSERVER_ADVWORKS",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-GMD26J4\\SQLEXPRESS",
+			"database": "AdventureWorks2022",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "VBSQL",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4MjU0NjNiNS05NmY3LTQxODAtYjkyMS1mYzA0OTYzZGRiZWQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "adfdevchevron",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

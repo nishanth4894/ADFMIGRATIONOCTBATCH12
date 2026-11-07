@@ -1,0 +1,19 @@
+{
+	"name": "DS_DELETE_ADLS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_DELETE_ADLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "industry_sic.csv",
+				"fileSystem": "inputcsv"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
