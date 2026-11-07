@@ -1,0 +1,231 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevchevron"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_SRC_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_BULK_PARQ_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_MULTIPLE_accountKey": {
+			"value": ""
+		},
+		"LS_DELETE_100KB_accountKey": {
+			"value": ""
+		},
+		"LS_DELETE_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_EVENTTRIGGER_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_EVENT_PARQ_accountKey": {
+			"value": ""
+		},
+		"LS_GET_CSV_SIZE_accountKey": {
+			"value": ""
+		},
+		"LS_LKUP_SALES_accountKey": {
+			"value": ""
+		},
+		"LS_MULTIPLEFILES_SINK_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_MULTIPLE_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_MULTIPLE_CSV_PARAM_accountKey": {
+			"value": ""
+		},
+		"LS_MUL_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_MUL_FILES_SIZE_accountKey": {
+			"value": ""
+		},
+		"LS_ONPREM_SQL_password": {
+			"value": ""
+		},
+		"LS_ORDERS_BULK_accountKey": {
+			"value": ""
+		},
+		"LS_PARQ_MULTIPLE_SINK_accountKey": {
+			"value": ""
+		},
+		"LS_PURCHASE_SQL_password": {
+			"value": ""
+		},
+		"LS_RESTAPI_JSON_accountKey": {
+			"value": ""
+		},
+		"LS_RESTAP_Parquet_accountKey": {
+			"value": ""
+		},
+		"LS_SALES_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_ADLS_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_SP_SQL_password": {
+			"value": ""
+		},
+		"LS_SQLSERVER_ADVWORKS_password": {
+			"value": ""
+		},
+		"LS_SQL_TO_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_SRC_SQLSERVER_ADLS_password": {
+			"value": ""
+		},
+		"LS_STORED_PROCEDURE_SQL_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsdevsource000001.dfs.core.windows.net/"
+		},
+		"LS_ADLS_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevsink00002.dfs.core.windows.net/"
+		},
+		"LS_ADLS_SRC_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsource000001.dfs.core.windows.net/"
+		},
+		"LS_BULK_PARQ_properties_typeProperties_url": {
+			"value": "https://adftriggeroutput.dfs.core.windows.net/"
+		},
+		"LS_CSV_MULTIPLE_properties_typeProperties_url": {
+			"value": "https://adlsdevsource000001.dfs.core.windows.net/"
+		},
+		"LS_DELETE_100KB_properties_typeProperties_url": {
+			"value": "https://adlsdevsource000001.dfs.core.windows.net/"
+		},
+		"LS_DELETE_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevsource000001.dfs.core.windows.net/"
+		},
+		"LS_EVENTTRIGGER_CSV_properties_typeProperties_url": {
+			"value": "https://adftriggerinput.dfs.core.windows.net/"
+		},
+		"LS_EVENT_PARQ_properties_typeProperties_url": {
+			"value": "https://adftriggeroutput.dfs.core.windows.net/"
+		},
+		"LS_GET_CSV_SIZE_properties_typeProperties_url": {
+			"value": "https://adlsdevsource000001.dfs.core.windows.net/"
+		},
+		"LS_LKUP_SALES_properties_typeProperties_url": {
+			"value": "https://adlsdevsource000001.dfs.core.windows.net/"
+		},
+		"LS_MULTIPLEFILES_SINK_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsink00002.dfs.core.windows.net/"
+		},
+		"LS_MULTIPLE_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsource000001.dfs.core.windows.net/"
+		},
+		"LS_MULTIPLE_CSV_PARAM_properties_typeProperties_url": {
+			"value": "https://adlsdevsource000001.dfs.core.windows.net/"
+		},
+		"LS_MUL_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevsource000001.dfs.core.windows.net/"
+		},
+		"LS_MUL_FILES_SIZE_properties_typeProperties_url": {
+			"value": "https://adlsdevsource000001.dfs.core.windows.net/"
+		},
+		"LS_ONPREM_SQL_properties_typeProperties_server": {
+			"value": "DESKTOP-GMD26J4\\SQLEXPRESS"
+		},
+		"LS_ONPREM_SQL_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"LS_ONPREM_SQL_properties_typeProperties_userName": {
+			"value": "VBSQL"
+		},
+		"LS_ORDERS_BULK_properties_typeProperties_url": {
+			"value": "https://adftriggerinput.dfs.core.windows.net/"
+		},
+		"LS_PARQ_MULTIPLE_SINK_properties_typeProperties_url": {
+			"value": "https://adlsdevsource000001.dfs.core.windows.net/"
+		},
+		"LS_PURCHASE_SQL_properties_typeProperties_server": {
+			"value": "DESKTOP-GMD26J4\\SQLEXPRESS"
+		},
+		"LS_PURCHASE_SQL_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"LS_PURCHASE_SQL_properties_typeProperties_userName": {
+			"value": "VBSQL"
+		},
+		"LS_RESTAPI_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/5yDVOt/data"
+		},
+		"LS_RESTAPI_JSON_properties_typeProperties_url": {
+			"value": "https://adlsdevsink00002.dfs.core.windows.net/"
+		},
+		"LS_RESTAP_Parquet_properties_typeProperties_url": {
+			"value": "https://adlsdevsink00002.dfs.core.windows.net/"
+		},
+		"LS_SALES_properties_typeProperties_url": {
+			"value": "https://adlsdevsource000001.dfs.core.windows.net/"
+		},
+		"LS_SINK_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevchevron.dfs.core.windows.net/"
+		},
+		"LS_SINK_ADLS_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevchevron.dfs.core.windows.net/"
+		},
+		"LS_SP_SQL_properties_typeProperties_server": {
+			"value": "DESKTOP-GMD26J4\\SQLEXPRESS"
+		},
+		"LS_SP_SQL_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"LS_SP_SQL_properties_typeProperties_userName": {
+			"value": "VBSQL"
+		},
+		"LS_SQLSERVER_ADVWORKS_properties_typeProperties_server": {
+			"value": "DESKTOP-GMD26J4\\SQLEXPRESS"
+		},
+		"LS_SQLSERVER_ADVWORKS_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"LS_SQLSERVER_ADVWORKS_properties_typeProperties_userName": {
+			"value": "VBSQL"
+		},
+		"LS_SQL_TO_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevsink00002.dfs.core.windows.net/"
+		},
+		"LS_SRC_SQLSERVER_ADLS_properties_typeProperties_server": {
+			"value": "DESKTOP-GMD26J4\\SQLEXPRESS"
+		},
+		"LS_SRC_SQLSERVER_ADLS_properties_typeProperties_database": {
+			"value": "VBGlobal"
+		},
+		"LS_SRC_SQLSERVER_ADLS_properties_typeProperties_userName": {
+			"value": "VBSQL"
+		},
+		"LS_STORED_PROCEDURE_SQL_properties_typeProperties_server": {
+			"value": "DESKTOP-GMD26J4\\SQLEXPRESS"
+		},
+		"LS_STORED_PROCEDURE_SQL_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"LS_STORED_PROCEDURE_SQL_properties_typeProperties_userName": {
+			"value": "VBSQL"
+		},
+		"STORAGE_EVENT_TRIGGER_CSV_2_PARQ_properties_typeProperties_scope": {
+			"value": "/subscriptions/b8efeafc-99c8-460e-940b-a496bab071c7/resourceGroups/rgdevchevronproject/providers/Microsoft.Storage/storageAccounts/adftriggerinput"
+		}
+	}
+}
