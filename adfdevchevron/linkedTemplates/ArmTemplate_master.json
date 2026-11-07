@@ -384,9 +384,6 @@
 					"LS_PARQ_MULTIPLE_SINK_accountKey": {
 						"value": "[parameters('LS_PARQ_MULTIPLE_SINK_accountKey')]"
 					},
-					"LS_RESTAPI_JSON_accountKey": {
-						"value": "[parameters('LS_RESTAPI_JSON_accountKey')]"
-					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
 					},
@@ -443,9 +440,6 @@
 					},
 					"LS_RESTAPI_properties_typeProperties_url": {
 						"value": "[parameters('LS_RESTAPI_properties_typeProperties_url')]"
-					},
-					"LS_RESTAPI_JSON_properties_typeProperties_url": {
-						"value": "[parameters('LS_RESTAPI_JSON_properties_typeProperties_url')]"
 					}
 				}
 			},
@@ -465,6 +459,9 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"LS_RESTAPI_JSON_accountKey": {
+						"value": "[parameters('LS_RESTAPI_JSON_accountKey')]"
+					},
 					"LS_RESTAP_Parquet_accountKey": {
 						"value": "[parameters('LS_RESTAP_Parquet_accountKey')]"
 					},
@@ -479,6 +476,9 @@
 					},
 					"LS_SQL_TO_ADLS_accountKey": {
 						"value": "[parameters('LS_SQL_TO_ADLS_accountKey')]"
+					},
+					"LS_RESTAPI_JSON_properties_typeProperties_url": {
+						"value": "[parameters('LS_RESTAPI_JSON_properties_typeProperties_url')]"
 					},
 					"LS_RESTAP_Parquet_properties_typeProperties_url": {
 						"value": "[parameters('LS_RESTAP_Parquet_properties_typeProperties_url')]"
