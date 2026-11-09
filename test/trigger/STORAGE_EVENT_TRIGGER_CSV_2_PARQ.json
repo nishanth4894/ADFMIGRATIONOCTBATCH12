@@ -2,7 +2,7 @@
 	"name": "STORAGE_EVENT_TRIGGER_CSV_2_PARQ",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipelines": [
 			{
 				"pipelineReference": {
