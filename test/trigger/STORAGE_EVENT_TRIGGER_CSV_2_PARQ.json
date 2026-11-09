@@ -14,7 +14,6 @@
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
 			"blobPathBeginsWith": "/eventcontainer/blobs/",
-			"blobPathEndsWith": "*.csv",
 			"ignoreEmptyBlobs": true,
 			"scope": "/subscriptions/b8efeafc-99c8-460e-940b-a496bab071c7/resourceGroups/rgdevchevronproject/providers/Microsoft.Storage/storageAccounts/adftriggerinput",
 			"events": [
